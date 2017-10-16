@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>table and forms</title>
+  <style type="text/css">
+    table {
+      border-collapse: collapse;
+      text-align: center;
+    }
+    td {
+      border: 1px black solid;
+      padding: 5px;
+    }
+    caption {
+      font-size: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+
+<body>
+  <table>
+    <caption>Расписание фильмов в далёком 2015</caption>
+    <thead>
+      <tr>
+        <td colspan="2">Киноплан</td>
+        <td colspan="6">Лаборатория DCP24, Москва-Дистрибьюторы</td>
+      </tr>
+    </thead>
+    <tfoot>
+      <tr>
+        <td rowspan="12" colspan="2">14:10</td>
+        <td><b>Коммерческие</b>
+        </td>
+        <td><b>00:00</b>
+        </td>
+        <td rowspan="12">14:16</td>
+        <td rowspan="12"><b>Экспириенс 2D, 16+</b>
+        </td>
+        <td rowspan="12">90</td>
+        <td rowspan="12">15:46</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><b>Трейлеры</b>
+        </td>
+        <td><b>06:13</b>
+        </td>
+      </tr>
+      <tr>
+        <td>00:59</td>
+        <td>Ангелы революции</td>
+      </tr>
+      <tr>
+        <td>02:08</td>
+        <td>Саранча</td>
+      </tr>
+      <tr>
+        <td>01:17</td>
+        <td>Деньги:Американская</td>
+      </tr>
+      <tr>
+        <td>01:49</td>
+        <td>007: Спектр</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><b>Итого</b>
+        </td>
+        <td><b>06:13</b>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+    </tfoot>
+    <tbody>
+      <tr>
+        <td colspan="2">Составлено: 06.11.2015</td>
+        <td colspan="6">Расписание(05.11.2015 - 11.11.2015)</td>
+      </tr>
+      <tr>
+        <td colspan="2">Сеанс</td>
+        <td>Длит.ролика</td>
+        <td>Ролик</td>
+        <td>Начало фильма</td>
+        <td>Фильм</td>
+        <td>Длительность</td>
+        <td>Конец сеанса</td>
+      </tr>
+      <tr>
+        <td colspan="8">05.11.2015</td>
+      </tr>
+      <tr>
+        <td colspan="8">Зал 1 (2D,3D) мест:8</td>
+      </tr>
+      <tr>
+        <td rowspan="12" colspan="2">10:00</td>
+        <td><b>Коммерческие</b>
+        </td>
+        <td><b>00:00</b>
+        </td>
+        <td rowspan="12">10:06</td>
+        <td rowspan="12"><b>Наследники 2D, 16+</b>
+        </td>
+        <td rowspan="12">100</td>
+        <td rowspan="12">11:46</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><b>Трейлеры</b>
+        </td>
+        <td><b>06:13</b>
+        </td>
+      </tr>
+      <tr>
+        <td>01:17</td>
+        <td>Деньги:Американская</td>
+      </tr>
+      <tr>
+        <td>02:08</td>
+        <td>Саранча</td>
+      </tr>
+      <tr>
+        <td>00:59</td>
+        <td>Ангелы революции</td>
+      </tr>
+      <tr>
+        <td>01:49</td>
+        <td>007: Спектр</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><b>Итого</b>
+        </td>
+        <td><b>06:13</b>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr></tr>
+    </tbody>
+    <tbody>
+      <tr>
+        <td rowspan="7" colspan="2">12:00</td>
+        <td><b>Коммерческие</b>
+        </td>
+        <td><b>00:00</b>
+        </td>
+        <td rowspan="7">12:00</td>
+        <td rowspan="7"><b>Рок на Востоке 2D, 16+</b>
+        </td>
+        <td rowspan="7">108</td>
+        <td rowspan="7">13:48</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><b>Трейлеры</b>
+        </td>
+        <td><b>00:00</b>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><b>Итого</b>
+        </td>
+        <td><b>00:00</b>
+        </td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr></tr>
+    </tbody>
+
+  </table>
+  <form name="Random Registration">
+    <fieldset>
+      <legend>Random name:</legend>
+      Name
+      <input type="text" name="NAME" value="doesn't matter" id="text">
+      <br> Date of birth
+      <input type="text" name="DATE OF BIRTH" value="doesn't matter too" id="text">
+      <br>
+      <br>
+      <p>E-mail(nobody wants it)</p>
+      <input type="email" name="notimeforhw@rea.ru">
+      <br>
+      <p>MOBILE(as previous)</p>
+      <input type="tel" name="+79999999999">
+      <p>Your web-site</p>
+      <input type="url" name="website">
+      <br>
+      <br>
+      <input type="submit" value="I'M OXXXY">
+      <input type="reset" value="ANTIHYPE">
+      <br>
+      <br>
+    </fieldset>
+  </form>
+  <form name="Selection">
+    <p><i>Who won?</i>
+    </p>
+    <p>
+      <input id="selection1" type="radio" name="smth" value="oxxxymiron" checked>
+      <label for="selection1">oxxxymiron</label>
+      <br>
+      <input id="selection2" type="radio" name="smth" value="dizaster">
+      <label for="selection2">dizaster</label>
+      <br>
+      <input id="selection3" type="radio" name="smth" value="wtf i'm doing here">
+      <label for="selection3">wtf</label>
+      <br>
+    </p>
+    <p>Hom much do I want to sleep?</p>
+    <input type="range" name="This much">
+  </form>
+  <form>
+    <p>If you want</p>
+    <br>
+    <input type="file" name="photo">
+    <br>
+    <br>
+  </form>
+  <form>
+    <fieldset>
+      <p>Google</p>
+      <input type="search" name="exit" value="How can I remove the page?">
+    </fieldset>
+  </form>
+  <form>
+    <p>What will you choose tonight?</p>
+    <input type="checkbox" id="chb1">
+    <label for="chb1">food</label>
+    <br>
+    <input type="checkbox" id="chb2">
+    <label for="chb2">sleep</label>
+  </form>
+</body>
+
+</html>
