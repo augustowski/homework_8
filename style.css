@@ -89,6 +89,10 @@ main{
     color: #515151;
 }
 
+#card-name2{
+    margin-bottom: 50px;
+}
+
 .product-price{
     display: flex;
     justify-content: space-between;
