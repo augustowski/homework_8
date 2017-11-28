@@ -65,7 +65,7 @@ main{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 55%;          
+    margin-top: 21px;       
     margin-bottom: 55px;
     border-radius: 2px;
     background-color: #fefefe;
