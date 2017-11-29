@@ -2,24 +2,24 @@
     font-family: Formular;
     src: url('fonts/Formular-Bold.otf');
     font-weight: bold;
-}
+ }
 
 @font-face {
     font-family: Formular;
     src: url('fonts/Formular-Medium.otf');
     font-weight: 500;
-}
+ }
 
 @font-face {
     font-family: Formular;
     src: url('fonts/Formular-Regular.otf');
     font-weight: normal;
-}
+ }
 
 .header{
     padding-top: 24px;
     margin-bottom: 36px;
-}
+ }
 
 .header-link {
     display: block;
@@ -31,32 +31,31 @@
     text-align: center;
     color: #4b721d;
     text-decoration: none;
-}
+ }
 
 .header-link:hover{
     color: #80bb3d;    
     text-decoration: none;
-}
+ }
 
 .header-link:focus {
     text-decoration: none;
-  }
+ }
   
 .header-link:active {
     color: #4b721d;
     text-decoration: none;
-  }
+ }
 
 .logo{
     width: 204px;
-    margin-left: 36px;
-}
+ }
 
 .container-img{
     margin-bottom: 57px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
     border-radius: 2px;
-}
+ }
 
 .card{
     display: flex;
@@ -67,12 +66,12 @@
     border-radius: 2px;
     background-color: #fefefe;
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.21);
-}
+ }
 
 .card-image{
     width: 263px;
     height: 263px;
-}
+ }
 
 .card-name{
     display: block;  
@@ -80,11 +79,25 @@
     font-family: Formular;
     font-size: 21px;
     color: #515151;
-}
+ }
+
+.card-name:hover{
+    color: #515151;
+    text-decoration: none;
+ } 
+ 
+.card-name:focus{
+    text-decoration: none;
+ } 
+ 
+.card-name:active{
+    color: #515151;
+    text-decoration: none;
+ }  
 
 #card-name2{
-    margin-bottom: 50px;
-}
+    margin-bottom: 30px;
+ }
 
 .product-price{
     display: flex;
@@ -94,7 +107,7 @@
     margin-top: 0;
     margin-bottom: 24px;
     
-}
+ }
 
 .product-price-old{
     display: inline-block;
@@ -103,7 +116,7 @@
     font-size: 28px;
     text-align: left;
     color: #9d9d9d;
-}
+ }
 
 .product-price-new{
     display: inline-block;
@@ -113,14 +126,14 @@
     font-weight: normal;
     text-align: right;
     color: #4b721d;
-}
+ }
 
 .product-price-new b{
     font-size: 28px;
     font-weight: bold;    
-}
+ }
 
-.bckg-1{
+.background-img1{
     position: relative;
     margin-top: 21px;    
     width: 100%;
@@ -132,9 +145,9 @@
      url(images/cp-1.jpg);
      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
      border-radius: 2px;     
-}
+ }
 
-.bckg-2{
+.background-img2{
     position: relative;
     margin-top: 21px;    
     width: 100%;
@@ -146,9 +159,9 @@
      url(images/cp-2.jpg);
      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
      border-radius: 2px;     
-}
+ }
 
-.bckg-3{
+.background-img3{
     position: relative;
     margin-top: 30px;
     width: 100%;
@@ -160,7 +173,7 @@
     url(images/cp-3.jpg);
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
     border-radius: 2px;     
-}
+ }
 
 #large-name{
     text-transform: uppercase;
@@ -179,19 +192,19 @@
     font-weight: bold;
     color: #fff;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
-}
+ }
 
 .text-cp:hover{   
     text-decoration: none;
-}
+ }
 
 .text-cp:focus{
     text-decoration: none;
-}
+ }
   
 .text-cp:active{
     text-decoration: none;
-}
+ }
 
 .section-title{
     font-family: Formular;
@@ -199,22 +212,22 @@
     font-weight: 500;
     text-align: left;
     color: #4b721d;
-}
+ }
 
 .section-title:hover{   
-    color: #4b721d;
+    color: #80bb3d;    
     text-decoration: none;
-}
+ }
 
 .section-title:focus{
     color: #4b721d;
     text-decoration: none;
-}
+ }
   
 .section-title:active{
     color: #4b721d;
     text-decoration: none;
-}
+ }
 
 .footer{
     margin-top: 86.4px;
@@ -224,17 +237,17 @@
     font-size: 21px;
     text-align: left;
     color: #666666;
-}
+ }
 
 .footer-text1{
     display: block;
     margin: 0;
-}
+ }
 
 .footer-text2{
     display: inline-block;
     margin-bottom: 0;
-}
+ }
 
 .copyright{
     background-color: #fff;
@@ -242,4 +255,4 @@
     font-size: 16px;
     text-align: center;
     color: #c3c3c3;
-}
+ }
