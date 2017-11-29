@@ -91,12 +91,12 @@
  } 
  
 .card-name:active{
-    color: #515151; 
+    color: #515151;
     text-decoration: none;
  }  
 
 #card-name2{
-    margin-bottom: 20px;
+    margin-bottom: 40px;
  }
 
 .product-price{
