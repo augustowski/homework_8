@@ -18,10 +18,11 @@
 
 .header{
     padding-top: 24px;
+    margin-bottom: 36px;
 }
 
 .header-link {
-    display: inline-block;
+    display: block;
     margin-top: 13px;
     text-transform: uppercase;
     font-family: 'Formular', Arial, Helvetica, sans-serif;
@@ -51,10 +52,6 @@
     margin-left: 36px;
 }
 
-main{
-    padding-top: 36px;
-}
-
 .container-img{
     margin-bottom: 57px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.21);
@@ -64,9 +61,9 @@ main{
 .card{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    margin-top: 21px;       
+    justify-content: space-between;  
     margin-bottom: 55px;
+    margin-top: 21px;
     border-radius: 2px;
     background-color: #fefefe;
     box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.21);
@@ -82,7 +79,6 @@ main{
     margin-left: 29px;
     font-family: Formular;
     font-size: 21px;
-    line-height: normal;
     color: #515151;
 }
 
